@@ -115,10 +115,10 @@ export const skillGroups = [
     icon: "code" as const,
     skills: [
       { name: "Python", pct: 95 },
-      { name: "JavaScript / React", pct: 86 },
-      { name: "FastAPI & Node.js", pct: 84 },
+      { name: "React / Next.js", pct: 87 },
+      { name: "FastAPI · Node.js · NestJS", pct: 83 },
       { name: "Java & C++", pct: 78 },
-      { name: "React Native (Meta certified)", pct: 80 },
+      { name: "React Native (Meta certified)", pct: 94 },
     ],
   },
   {
@@ -127,7 +127,7 @@ export const skillGroups = [
     skills: [
       { name: "SQL, OTBI & BIP", pct: 88 },
       { name: "MongoDB / MySQL / Firebase", pct: 82 },
-      { name: "Supabase", pct: 78 },
+      { name: "Supabase", pct: 98 },
       { name: "Oracle Cloud & OCI AI", pct: 85 },
       { name: "Git, Colab & tooling", pct: 90 },
     ],
