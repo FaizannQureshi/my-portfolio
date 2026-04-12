@@ -14,21 +14,21 @@ export const site = {
   availability: "Open to new opportunities",
   tagline:
     "AI and Data Engineer building intelligent systems — from LLM fine-tuning and RAG pipelines to computer vision and enterprise data solutions.",
-  aboutHeadline: "Engineering Generative AI for the Enterprise",
+  aboutHeadline: "Engineering AI Systems That Deliver Real Impact",
   aboutSub:
     "Production-focused ML systems that connect research to real business outcomes.",
   aboutBio: [
-    "I am an AI and Data Engineer based in Pakistan, focused on end-to-end intelligent systems — from model training and retrieval pipelines to dashboards and cloud delivery.",
-    "At GoSaaS I work on Oracle Cloud–native AI: LLM fine-tuning on enterprise schemas, computer vision for CAD workflows, AI agents, and large-scale reporting with OTBI and BIP.",
-    "Previously at GSPEC I shipped applied CV and generative projects — from YOLO detection to Stable Diffusion fine-tuning and legal-domain RAG — always with an eye on measurable impact.",
+    "I design and build production-grade AI systems, combining LLMs, retrieval pipelines, and scalable backend architectures to solve real-world problems.",
+    "My experience spans generative AI, computer vision, and full-stack development, allowing me to build complete, end-to-end intelligent systems.",
+    "From RAG pipelines to YOLO-based detection systems and diffusion model fine-tuning, I focus on building solutions that are not just functional but reliable and scalable.",
   ],
 } as const;
 
 export const stats = [
-  { value: "2025", label: "Oracle GenAI Certified" },
-  { value: "900+", label: "Q&A pairs for LLM fine-tuning" },
-  { value: "3.23", label: "BSCS CGPA (NUST)" },
-  { value: "10+", label: "AI tools & frameworks" },
+  { value: "900+", label: "LLM Fine-Tuning Q&A Pairs" },
+  { value: "3+", label: "Years Building AI Systems" },
+  { value: "5+", label: "Production AI Projects" },
+  { value: "10+", label: "AI Tools & Frameworks Used" },
 ] as const;
 
 export const projects = [
