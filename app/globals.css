@@ -1,26 +1,54 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --bg-deep: #050508;
+  --bg-elevated: rgba(255, 255, 255, 0.04);
+  --border-subtle: rgba(255, 255, 255, 0.08);
+  --accent: #22d3ee;
+  --accent-dim: rgba(34, 211, 238, 0.15);
+  --accent-2: #a78bfa;
+  --text-muted: #9ca3af;
+  --gradient-name: linear-gradient(90deg, #22d3ee, #a78bfa);
+  --gradient-bar: linear-gradient(90deg, #8b5cf6, #3b82f6);
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+body {
+  background: var(--bg-deep);
+  color: #f9fafb;
+  scroll-behavior: smooth;
 }
 
-body {
-  background: #0B0F19;
-  color: white;
-  scroll-behavior: smooth;
+/* Graph-paper grid + faint blueprint noise */
+.bg-page {
+  background-color: var(--bg-deep);
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    radial-gradient(ellipse 80% 50% at 50% -20%, rgba(34, 211, 238, 0.12), transparent);
+  background-size:
+    48px 48px,
+    48px 48px,
+    100% 100%;
+}
+
+.glass-panel {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--border-subtle);
+  backdrop-filter: blur(12px);
+}
+
+.text-gradient {
+  background: var(--gradient-name);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.bar-fill {
+  background: var(--gradient-bar);
 }
