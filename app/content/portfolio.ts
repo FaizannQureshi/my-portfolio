@@ -13,7 +13,7 @@ export const site = {
     "https://education.oracle.com/oracle-cloud-infrastructure-2025-certified-generative-ai-professional/trackp_OCI2025GAIOCP",
   availability: "Open to new opportunities",
   tagline:
-    "AI and Data Engineer building intelligent systems — from LLM fine-tuning and RAG pipelines to computer vision and enterprise data solutions.",
+  "Building AI systems from LLMs and RAG pipelines to real-world applications.",
   aboutHeadline: "Engineering AI Systems That Deliver Real Impact",
   aboutSub:
     "Production-focused ML systems that connect research to real business outcomes.",
