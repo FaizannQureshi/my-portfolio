@@ -31,83 +31,91 @@ export const stats = [
   { value: "10+", label: "AI Tools & Frameworks Used" },
 ] as const;
 
-/** Highlighted work — larger cards in the Projects section */
 export const featuredProjects = [
   {
     icon: "layers" as const,
     title: "FlowRMS",
+    href: "https://flowrms.com/",
     tagline:
-      "Full-stack AI platform for revenue and ops — smart workflows, analytics, and automation for property teams.",
+      "Full-stack AI platform for revenue and operations with smart workflows, analytics, and automation for property teams.",
     tags: ["Next.js", "NestJS", "AI", "Product"],
   },
   {
     icon: "globe" as const,
     title: "BookYOLO",
     tagline:
-      "Listing intelligence across Airbnb, Agoda & Booking — quality scores and risk flags at scale.",
+      "AI-powered listing intelligence across Airbnb, Agoda, and Booking with quality scoring and risk detection at scale.",
     href: "https://bookyolo.com/",
     tags: ["Python", "ML", "Scraping", "Live"],
   },
   {
     icon: "brain" as const,
-    title: "PLM LLM fine-tuning",
+    title: "PLM LLM Fine-Tuning",
     tagline:
-      "LoRA on GPT OSS-20B over Oracle Agile — ~900 Q&A pairs for schema-aware prompt-to-SQL.",
+      "Fine-tuned GPT OSS-20B using LoRA on Oracle Agile schemas for schema understanding and prompt-to-SQL generation using 900+ curated Q&A pairs.",
     tags: ["LoRA", "Oracle", "LLMs", "OCI"],
+  },
+  {
+    icon: "file-text" as const,
+    title: "Document Audit Review System",
+    tagline:
+      "AI-driven system for extracting, validating, and analyzing audit data from structured and unstructured documents.",
+    tags: ["LLMs", "RAG", "Automation", "NLP"],
   },
 ] as const;
 
-/** Additional work — compact cards */
+
 export const projects = [
   {
     icon: "eye" as const,
     title: "CadVision",
     description:
-      "Highlights CAD revision diffs with CV so engineers validate designs faster, with fewer manual compares.",
+      "Computer vision system that highlights differences between CAD revisions to speed up design validation.",
     tags: ["PyTorch", "CAD", "CV"],
+  },
+  {
+    icon: "messages" as const,
+    title: "Law Firm RAG Pipeline",
+    description:
+      "Built a local RAG system using ChromaDB, LlamaIndex, and Mistral for secure legal document search.",
+    tags: ["RAG", "LlamaIndex", "Mistral"],
   },
   {
     icon: "bot" as const,
     title: "Oracle AI Agent Studio",
     description:
-      "Enterprise agents with LLM routing, custom workflows, and secure hooks into line-of-business data.",
+      "Built enterprise AI agents with LLM integration, custom workflows, and secure connectivity to business data.",
     tags: ["Agents", "OCI", "Enterprise"],
   },
   {
     icon: "layout" as const,
-    title: "OTBI & BIP reporting",
+    title: "OTBI & BIP Reporting",
     description:
-      "Operational dashboards and BIP reports — heavy SQL, clean layouts, reliable stakeholder delivery.",
+      "Developed dashboards and reports using complex SQL with optimized layouts for reliable stakeholder insights.",
     tags: ["OTBI", "BIP", "SQL"],
   },
   {
     icon: "network" as const,
-    title: "Physics-informed regression",
+    title: "Physics-Informed Regression",
     description:
-      "PyTorch multi-output models for 5D CFD with custom losses — tuned for simulation accuracy.",
+      "PyTorch-based multi-output model for 5D CFD simulations using custom loss functions and tuning for accuracy.",
     tags: ["PyTorch", "CFD", "Research"],
   },
   {
     icon: "scan" as const,
-    title: "YOLOv11 football detection",
+    title: "YOLOv11 Football Detection",
     description:
-      "Custom YOLOv11 + OpenCV pipeline for real-time player and ball tracking on match footage.",
+      "Real-time player and ball tracking system using YOLOv11, OpenCV, and a custom-trained dataset.",
     tags: ["YOLOv11", "OpenCV", "CV"],
   },
   {
     icon: "sparkles" as const,
-    title: "DreamBooth product imagery",
+    title: "DreamBooth Product Imagery",
     description:
-      "Brand-tuned Stable Diffusion v1.5 for consistent product shots and campaign-ready assets.",
-    tags: ["SD", "DreamBooth", "Gen AI"],
+      "Fine-tuned Stable Diffusion v1.5 for generating consistent, brand-specific product images.",
+    tags: ["Stable Diffusion", "DreamBooth", "Gen AI"],
   },
-  {
-    icon: "messages" as const,
-    title: "Law firm RAG pipeline",
-    description:
-      "Local RAG with ChromaDB, LlamaIndex & Mistral — tracked embeddings for confidential legal search.",
-    tags: ["RAG", "LlamaIndex", "Mistral"],
-  },
+  
 ] as const;
 
 export const skillGroups = [

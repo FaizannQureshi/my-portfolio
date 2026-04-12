@@ -5,6 +5,7 @@ import {
   Bot,
   Brain,
   Eye,
+  FileText,
   Globe,
   LayoutDashboard,
   Layers,
@@ -28,6 +29,7 @@ const iconMap = {
   sparkles: Sparkles,
   messages: MessagesSquare,
   layers: Layers,
+  "file-text": FileText,
 } as const;
 
 type IconKey = keyof typeof iconMap;
@@ -81,7 +83,7 @@ export default function Projects() {
           className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-10"
         >
           {featuredProjects.map((p) => {
-            const Icon = iconMap[p.icon as IconKey];
+            const Icon = iconMap[p.icon as IconKey] ?? Brain;
             return (
               <motion.article
                 key={p.title}
@@ -159,7 +161,7 @@ export default function Projects() {
             className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8"
           >
             {projects.map((p) => {
-              const Icon = iconMap[p.icon as IconKey];
+              const Icon = iconMap[p.icon as IconKey] ?? Brain;
               return (
                 <motion.article
                   key={p.title}
