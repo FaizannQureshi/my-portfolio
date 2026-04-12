@@ -31,70 +31,82 @@ export const stats = [
   { value: "10+", label: "AI Tools & Frameworks Used" },
 ] as const;
 
-export const projects = [
+/** Highlighted work — larger cards in the Projects section */
+export const featuredProjects = [
+  {
+    icon: "layers" as const,
+    title: "FlowRMS",
+    tagline:
+      "Full-stack AI platform for revenue and ops — smart workflows, analytics, and automation for property teams.",
+    tags: ["Next.js", "NestJS", "AI", "Product"],
+  },
+  {
+    icon: "globe" as const,
+    title: "BookYOLO",
+    tagline:
+      "Listing intelligence across Airbnb, Agoda & Booking — quality scores and risk flags at scale.",
+    href: "https://bookyolo.com/",
+    tags: ["Python", "ML", "Scraping", "Live"],
+  },
   {
     icon: "brain" as const,
     title: "PLM LLM fine-tuning",
-    description:
-      "Fine-tuned GPT OSS-20B with LoRA on Oracle Agile PLM schemas for schema understanding, relationship mapping, and prompt-to-SQL generation — ~900 curated Q&A pairs.",
-    tags: ["Python", "LoRA", "Oracle Agile", "SQL", "OCI"],
+    tagline:
+      "LoRA on GPT OSS-20B over Oracle Agile — ~900 Q&A pairs for schema-aware prompt-to-SQL.",
+    tags: ["LoRA", "Oracle", "LLMs", "OCI"],
   },
+] as const;
+
+/** Additional work — compact cards */
+export const projects = [
   {
     icon: "eye" as const,
     title: "CadVision",
     description:
-      "AI system to detect and highlight differences between CAD revisions for automated design validation and faster engineering review.",
-    tags: ["Computer Vision", "PyTorch", "CAD", "Automation"],
+      "Highlights CAD revision diffs with CV so engineers validate designs faster, with fewer manual compares.",
+    tags: ["PyTorch", "CAD", "CV"],
   },
   {
     icon: "bot" as const,
     title: "Oracle AI Agent Studio",
     description:
-      "Enterprise AI agents with LLM integration, custom workflows, and secure connectivity to business data sources.",
-    tags: ["LLMs", "Agents", "OCI", "Enterprise"],
+      "Enterprise agents with LLM routing, custom workflows, and secure hooks into line-of-business data.",
+    tags: ["Agents", "OCI", "Enterprise"],
   },
   {
     icon: "layout" as const,
     title: "OTBI & BIP reporting",
     description:
-      "Dashboards and operational reports with complex SQL, optimized layouts, and reliable delivery for stakeholders.",
-    tags: ["OTBI", "BIP", "SQL", "Analytics"],
-  },
-  {
-    icon: "globe" as const,
-    title: "BookYOLO",
-    description:
-      "AI listing scanner for Airbnb, Agoda, and Booking.com — feature extraction and risk flags to assess stay quality.",
-    href: "https://bookyolo.com/",
-    tags: ["Python", "Scraping", "ML", "Product"],
+      "Operational dashboards and BIP reports — heavy SQL, clean layouts, reliable stakeholder delivery.",
+    tags: ["OTBI", "BIP", "SQL"],
   },
   {
     icon: "network" as const,
     title: "Physics-informed regression",
     description:
-      "PyTorch multi-output model for 5D CFD simulations with custom loss functions and careful hyperparameter tuning.",
-    tags: ["PyTorch", "CFD", "Research", "Multi-output"],
+      "PyTorch multi-output models for 5D CFD with custom losses — tuned for simulation accuracy.",
+    tags: ["PyTorch", "CFD", "Research"],
   },
   {
     icon: "scan" as const,
     title: "YOLOv11 football detection",
     description:
-      "Fine-tuned YOLOv11 for real-time player and ball detection with OpenCV and a custom dataset.",
-    tags: ["YOLOv11", "OpenCV", "Ultralytics", "CV"],
+      "Custom YOLOv11 + OpenCV pipeline for real-time player and ball tracking on match footage.",
+    tags: ["YOLOv11", "OpenCV", "CV"],
   },
   {
     icon: "sparkles" as const,
     title: "DreamBooth product imagery",
     description:
-      "Fine-tuned Stable Diffusion v1.5 for brand-specific product image generation and marketing assets.",
-    tags: ["Stable Diffusion", "DreamBooth", "Generative AI"],
+      "Brand-tuned Stable Diffusion v1.5 for consistent product shots and campaign-ready assets.",
+    tags: ["SD", "DreamBooth", "Gen AI"],
   },
   {
     icon: "messages" as const,
     title: "Law firm RAG pipeline",
     description:
-      "Local RAG with ChromaDB, LlamaIndex, and Mistral-7B — embeddings, retrieval, and document tracking for legal workflows.",
-    tags: ["RAG", "ChromaDB", "LlamaIndex", "Mistral"],
+      "Local RAG with ChromaDB, LlamaIndex & Mistral — tracked embeddings for confidential legal search.",
+    tags: ["RAG", "LlamaIndex", "Mistral"],
   },
 ] as const;
 
