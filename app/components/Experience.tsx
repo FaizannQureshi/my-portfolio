@@ -94,30 +94,19 @@ function ExperienceCard({
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ delay: index * 0.04 }}
-      className={`rounded-2xl border border-white/[0.08] bg-zinc-900/35 p-6 md:p-8 hover:border-cyan-500/20 transition-colors ${
-        align === "right" ? "md:text-right" : "md:text-left"
-      }`}
+      className="rounded-2xl border border-white/[0.08] bg-zinc-900/35 p-6 md:p-8 hover:border-cyan-500/20 transition-colors md:text-left"
     >
       <div
-        className={`flex items-center gap-2 text-cyan-400 text-sm font-mono mb-3 ${
-          align === "right" ? "md:justify-end" : ""
-        }`}
+        className="flex items-center gap-2 text-cyan-400 text-sm font-mono mb-3"
       >
         <Briefcase className="w-4 h-4 shrink-0" />
         {job.range}
       </div>
       <h3 className="text-xl font-bold text-white">{job.company}</h3>
       <p className="text-zinc-400 mt-1">{job.role}</p>
-      <ul
-        className={`mt-5 space-y-3 text-sm text-zinc-300 leading-relaxed ${
-          align === "right" ? "md:ml-auto" : ""
-        }`}
-      >
+      <ul className="mt-5 space-y-3 text-sm text-zinc-300 leading-relaxed">
         {job.highlights.map((h, hi) => (
-          <li
-            key={hi}
-            className={`flex gap-2 ${align === "right" ? "md:flex-row-reverse" : ""}`}
-          >
+          <li key={hi} className="flex gap-2">
             <span className="text-cyan-500/80 mt-1.5 shrink-0">●</span>
             <span>
               {h.href ? (
@@ -136,9 +125,7 @@ function ExperienceCard({
           </li>
         ))}
       </ul>
-      <div
-        className={`mt-6 flex flex-wrap gap-2 ${align === "right" ? "md:justify-end" : ""}`}
-      >
+      <div className="mt-6 flex flex-wrap gap-2">
         {job.tags.map((t) => (
           <span
             key={t}
