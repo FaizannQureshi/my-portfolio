@@ -165,22 +165,33 @@ export const experiences = [
         href: site.oracleGenAiCert,
       },
       {
-        text: "LLM fine-tuning (PLM migration) — GPT OSS-20B + LoRA on Oracle Agile PLM schemas; schema understanding, relationship mapping, prompt-to-SQL (~900 Q&A pairs).",
+        text: "LLM fine-tuning (PLM migration) — GPT OSS-20B + LoRA on Oracle Agile PLM; schema-aware prompt-to-SQL (~900 Q&A pairs).",
       },
       {
-        text: "CadVision — AI system to detect and highlight differences between CAD revisions for automated design validation.",
+        text: "CadVision — CV system to highlight CAD revision diffs for automated validation.",
       },
       {
-        text: "Oracle AI Agent Studio — agents with LLM integration, custom workflows, and enterprise data connectivity.",
-      },
-      {
-        text: "OTBI & BIP — dashboards and reports with complex SQL and optimized layouts.",
-      },
-      {
-        text: "Data migration — Oracle Agile / legacy to Oracle Cloud with mapping, transformation, and validation.",
+        text: "Oracle AI Agent Studio — LLM agents with custom workflows and enterprise data connectivity.",
       },
     ],
     tags: ["OCI", "LLMs", "PL/SQL", "OTBI", "Agents", "Python"],
+  },
+  {
+    company: "FlowRMS",
+    role: "AI Automation Engineer",
+    range: "2025",
+    highlights: [
+      {
+        text: "Built workflow automations and AI-assisted tools to streamline ops and reduce manual effort.",
+      },
+      {
+        text: "Integrated data sources and dashboards to improve visibility across teams and processes.",
+      },
+      {
+        text: "Delivered reliable internal tools with clear UX and measurable time savings.",
+      },
+    ],
+    tags: ["Automation", "AI", "Dashboards", "Full-stack"],
   },
   {
     company: "GSPEC Technologies",
@@ -192,16 +203,10 @@ export const experiences = [
         href: "https://bookyolo.com/",
       },
       {
-        text: "Physics-informed regression — PyTorch multi-output model for 5D CFD simulations with custom losses.",
+        text: "Physics-informed regression — PyTorch multi-output model for 5D CFD with custom losses.",
       },
       {
-        text: "YOLOv11 football detection — real-time player/ball detection with OpenCV and custom data.",
-      },
-      {
-        text: "DreamBooth — fine-tuned Stable Diffusion v1.5 for brand-specific product images.",
-      },
-      {
-        text: "Law firm RAG — ChromaDB, LlamaIndex, Mistral-7B with embeddings and document tracking.",
+        text: "YOLOv11 football detection — real-time player/ball tracking with OpenCV and custom data.",
       },
     ],
     tags: ["PyTorch", "YOLO", "RAG", "OpenCV", "Generative AI"],
