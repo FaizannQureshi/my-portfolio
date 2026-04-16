@@ -45,20 +45,24 @@ export default function Experience() {
                   aria-hidden
                 />
 
-                {/* mobile: single column */}
+                {/* mobile: single column — match slide direction to role side */}
                 <div className="pl-12 md:hidden">
-                  <ExperienceCard job={job} index={i} align="left" />
+                  <ExperienceCard
+                    job={job}
+                    index={i}
+                    side={isLeft ? "left" : "right"}
+                  />
                 </div>
 
                 {/* desktop: alternating cards */}
                 <div className="hidden md:block">
                   {isLeft ? (
-                    <ExperienceCard job={job} index={i} align="right" />
+                    <ExperienceCard job={job} index={i} side="left" />
                   ) : null}
                 </div>
                 <div className="hidden md:block">
                   {!isLeft ? (
-                    <ExperienceCard job={job} index={i} align="left" />
+                    <ExperienceCard job={job} index={i} side="right" />
                   ) : null}
                 </div>
               </li>
@@ -82,18 +86,26 @@ type ExperienceItem = {
 function ExperienceCard({
   job,
   index,
-  align,
+  side,
 }: {
   job: ExperienceItem;
   index: number;
-  align: "left" | "right";
+  /** Timeline side: left column slides in from left, right column from right */
+  side: "left" | "right";
 }) {
+  const slideX = side === "left" ? -56 : 56;
+
   return (
     <motion.div
-      initial={{ opacity: 0, y: 12 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true }}
-      transition={{ delay: index * 0.04 }}
+      initial={{ opacity: 0, x: slideX, y: 16 }}
+      whileInView={{ opacity: 1, x: 0, y: 0 }}
+      viewport={{ once: true, margin: "-12% 0px -12% 0px", amount: 0.25 }}
+      transition={{
+        type: "spring",
+        stiffness: 320,
+        damping: 28,
+        delay: index * 0.05,
+      }}
       className="rounded-2xl border border-white/[0.08] bg-zinc-900/35 p-6 md:p-8 hover:border-cyan-500/20 transition-colors md:text-left"
     >
       <div
