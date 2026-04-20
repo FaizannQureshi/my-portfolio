@@ -1,7 +1,7 @@
 /** Site copy and resume data — edit social URLs here */
 export const site = {
   name: "Muhammad Faizan Qureshi",
-  firstName: "Muhammad Faizan",
+  firstName: "M Faizan",
   lastName: "Qureshi",
   handle: "@mfaizanq",
   email: "muhammadfaizan9222@gmail.com",
@@ -13,7 +13,7 @@ export const site = {
     "https://education.oracle.com/oracle-cloud-infrastructure-2025-certified-generative-ai-professional/trackp_OCI2025GAIOCP",
   availability: "Open to new opportunities",
   tagline:
-  "Building AI systems from LLMs and RAG pipelines to real-world applications.",
+  "Full Stack AI Engineer",
   aboutHeadline: "Engineering AI Systems That Deliver Real Impact",
   aboutSub:
     "Production-focused ML systems that connect research to real business outcomes.",
