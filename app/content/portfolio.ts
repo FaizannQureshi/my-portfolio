@@ -162,7 +162,6 @@ export const experiences = [
     highlights: [
       {
         text: "Oracle Cloud Infrastructure 2025 Certified Generative AI Professional",
-        href: site.oracleGenAiCert,
       },
       {
         text: "LLM fine-tuning (PLM migration) — GPT OSS-20B + LoRA on Oracle Agile PLM; schema-aware prompt-to-SQL (~900 Q&A pairs).",
@@ -200,7 +199,6 @@ export const experiences = [
     highlights: [
       {
         text: "BookYOLO — AI listing scanner for Airbnb / Agoda / Booking.com; features and risk flags for stay quality.",
-        href: "https://bookyolo.com/",
       },
       {
         text: "Physics-informed regression — PyTorch multi-output model for 5D CFD with custom losses.",

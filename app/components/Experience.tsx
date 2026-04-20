@@ -119,14 +119,14 @@ function ExperienceCard({
       <ul className="mt-5 space-y-3 text-sm text-zinc-300 leading-relaxed">
         {job.highlights.map((h, hi) => (
           <li key={hi} className="flex items-start gap-2">
-            <span className="text-cyan-500/80 mt-[0.38rem] shrink-0">●</span>
+            <span className="text-cyan-500/80 mt-1 shrink-0">●</span>
             <span className="min-w-0">
               {h.href ? (
                 <a
                   href={h.href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-cyan-300/90 hover:underline underline-offset-2"
+                  className="text-cyan-300/90 hover:underline underline-offset-2 leading-relaxed"
                 >
                   {h.text}
                 </a>
