@@ -8,7 +8,7 @@ export const site = {
   phone: "+92 335 790 3070",
   phoneTel: "+923357903070",
   github: "https://github.com/muhammadfaizan9222",
-  linkedin: "https://www.linkedin.com/in/muhammad-faizan-qureshi",
+  linkedin: "https://www.linkedin.com/in/muhammad-faizan-qureshi-000b8b230/",
   oracleGenAiCert:
     "https://education.oracle.com/oracle-cloud-infrastructure-2025-certified-generative-ai-professional/trackp_OCI2025GAIOCP",
   availability: "Open to new opportunities",
