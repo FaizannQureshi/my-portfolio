@@ -109,7 +109,7 @@ export const config = {
       title: "PLM LLM Fine-Tuning",
       category: "LLM / Enterprise",
       technologies: "LoRA, Oracle Agile, GPT OSS-20B, SQL, OCI",
-      image: "/images/projects/plm-llm.svg",
+      image: "/images/projects/plm-llm.png",
       description:
         "LoRA fine-tune on Oracle Agile PLM schemas with ~900 Q&A pairs for schema-aware prompt-to-SQL generation.",
     },
