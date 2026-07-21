@@ -77,7 +77,7 @@ export const config = {
       company: "NUST, Islamabad",
       period: "2021 — 2025",
       location: "Pakistan",
-      description: "CGPA 3.23 — computer science fundamentals and applied AI coursework.",
+      description: "Computer science fundamentals and applied AI coursework.",
       responsibilities: [
         "Coursework in ML, algorithms, systems, and software engineering",
         "Built portfolio projects across CV, NLP, and full-stack development",
@@ -188,8 +188,8 @@ export const config = {
       ],
     },
     design: {
-      title: "FULL-STACK & DATA",
-      description: "Modern web apps and data platforms",
+      title: "FULL-STACK DEVELOPER",
+      description: "Modern web and mobile apps and data platforms",
       details:
         "React, Next.js, NestJS, FastAPI, and SQL/OTBI reporting for end-to-end systems that scale.",
       tools: [
