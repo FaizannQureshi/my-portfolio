@@ -68,10 +68,6 @@ const Contact = () => {
                 {config.contact.email}
               </a>
             </p>
-            <h4>Location</h4>
-            <p>
-              <span>{config.social.location}</span>
-            </p>
           </div>
           <div className="contact-box">
             <h4>Social</h4>

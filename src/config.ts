@@ -4,7 +4,7 @@ export const config = {
     fullName: "Muhammad Faizan Qureshi",
     title: "AI & Data Engineer",
     description:
-      "AI and Data Engineer building intelligent systems — from LLM fine-tuning and RAG pipelines to computer vision and enterprise Oracle Cloud solutions.",
+      "AI and Data Engineer building intelligent systems with LLM fine tuning, RAG pipelines, computer vision, and enterprise Oracle Cloud solutions.",
   },
   social: {
     github: "muhammadfaizan9222",
@@ -14,7 +14,7 @@ export const config = {
   about: {
     title: "About Me",
     description:
-      "I am an AI and Data Engineer based in Pakistan, focused on production-grade intelligent systems — LLMs, retrieval pipelines, computer vision, and scalable backends. At GoSaaS I work on Oracle Cloud AI, PLM LLM fine-tuning, CAD vision, and enterprise reporting. I ship end-to-end: research to reliable products.",
+      "I build production grade intelligent systems with LLMs, retrieval pipelines, computer vision, and scalable backends. At GoSaaS I work on Oracle Cloud AI, PLM LLM fine tuning, CAD vision, and enterprise reporting. I ship end to end from research to reliable products.",
   },
   experiences: [
     {
@@ -25,8 +25,8 @@ export const config = {
       description:
         "Oracle Cloud AI, LLM fine-tuning on enterprise PLM schemas, and data engineering at scale.",
       responsibilities: [
-        "Oracle GenAI Professional — LLM fine-tuning with LoRA on Oracle Agile PLM (~900 Q&A pairs)",
-        "CadVision — computer vision for CAD revision diff detection and validation",
+        "Oracle GenAI Professional: LLM fine-tuning with LoRA on Oracle Agile PLM (~900 Q&A pairs)",
+        "CadVision: computer vision for CAD revision diff detection and validation",
         "Oracle AI Agent Studio, OTBI/BIP reporting, and Agile-to-Cloud data migration",
       ],
       technologies: ["OCI", "LLMs", "LoRA", "Python", "OTBI", "Agents"],
@@ -53,7 +53,7 @@ export const config = {
       description:
         "Applied AI across computer vision, generative models, and RAG for real products.",
       responsibilities: [
-        "BookYOLO — AI listing scanner for Airbnb, Agoda, and Booking.com",
+        "BookYOLO: AI listing scanner for Airbnb, Agoda, and Booking.com",
         "Physics-informed PyTorch models for 5D CFD simulations",
         "YOLOv11 football detection, DreamBooth product imagery, law-firm RAG pipeline",
       ],
@@ -91,34 +91,34 @@ export const config = {
       title: "FlowRMS",
       category: "Full Stack / AI",
       technologies: "Next.js, NestJS, TypeScript, AI, Automation",
-      image: "/images/placeholder.webp",
+      image: "/images/projects/flowrms.png",
       description:
-        "Full-stack AI platform for revenue and operations — smart workflows, analytics, and automation for property teams.",
+        "Full-stack AI platform for revenue and operations with smart workflows, analytics, and automation for property teams.",
     },
     {
       id: 2,
       title: "BookYOLO",
       category: "AI / Product",
       technologies: "Python, ML, Scraping, FastAPI",
-      image: "/images/placeholder.webp",
+      image: "/images/projects/bookyolo.png",
       description:
-        "Listing intelligence across Airbnb, Agoda, and Booking — quality scoring and risk detection at scale.",
+        "Listing intelligence across Airbnb, Agoda, and Booking with quality scoring and risk detection at scale.",
     },
     {
       id: 3,
       title: "PLM LLM Fine-Tuning",
       category: "LLM / Enterprise",
       technologies: "LoRA, Oracle Agile, GPT OSS-20B, SQL, OCI",
-      image: "/images/placeholder.webp",
+      image: "/images/projects/plm-llm.svg",
       description:
-        "LoRA fine-tune on Oracle Agile PLM schemas — ~900 Q&A pairs for schema-aware prompt-to-SQL generation.",
+        "LoRA fine-tune on Oracle Agile PLM schemas with ~900 Q&A pairs for schema-aware prompt-to-SQL generation.",
     },
     {
       id: 4,
       title: "Document Audit Review System",
       category: "AI / NLP",
       technologies: "LLMs, RAG, Automation, NLP",
-      image: "/images/placeholder.webp",
+      image: "/images/projects/document-audit.png",
       description:
         "AI system for extracting, validating, and analyzing audit data from structured and unstructured documents.",
     },
@@ -127,7 +127,7 @@ export const config = {
       title: "CadVision",
       category: "Computer Vision",
       technologies: "PyTorch, OpenCV, CAD, Automation",
-      image: "/images/placeholder.webp",
+      image: "/images/projects/cadvision.png",
       description:
         "Highlights CAD revision diffs with computer vision for faster automated design validation.",
     },
@@ -173,7 +173,7 @@ export const config = {
       title: "AI & DATA ENGINEER",
       description: "LLMs, vision, and production ML systems",
       details:
-        "Fine-tuning, RAG pipelines, computer vision, and Oracle Cloud AI — from research-grade models to enterprise delivery.",
+        "Fine-tuning, RAG pipelines, computer vision, and Oracle Cloud AI from research-grade models to enterprise delivery.",
       tools: [
         "Python",
         "PyTorch",
@@ -191,7 +191,7 @@ export const config = {
       title: "FULL-STACK & DATA",
       description: "Modern web apps and data platforms",
       details:
-        "React, Next.js, NestJS, FastAPI, and SQL/OTBI reporting — end-to-end systems that scale.",
+        "React, Next.js, NestJS, FastAPI, and SQL/OTBI reporting for end-to-end systems that scale.",
       tools: [
         "React",
         "Next.js",
