@@ -114,6 +114,15 @@ export const config = {
         "LoRA fine-tune on Oracle Agile PLM schemas with ~900 Q&A pairs for schema-aware prompt-to-SQL generation.",
     },
     {
+      id: 9,
+      title: "FindMyStay",
+      category: "Full Stack / Product",
+      technologies: "Next.js, TypeScript, AI, Supabase, Maps",
+      image: "/images/projects/FindMyStay.png",
+      description:
+        "Verified stay marketplace for Lahore and Islamabad with AI matching, landlord chat, and monthly booking flows.",
+    },
+    {
       id: 4,
       title: "Document Audit Review System",
       category: "AI / NLP",
@@ -189,7 +198,7 @@ export const config = {
     },
     design: {
       title: "FULL-STACK DEVELOPER",
-      description: "Modern web and mobile apps and data platforms",
+      description: "Modern web and Mobile apps",
       details:
         "React, Next.js, NestJS, FastAPI, and SQL/OTBI reporting for end-to-end systems that scale.",
       tools: [

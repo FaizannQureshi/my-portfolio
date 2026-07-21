@@ -4,7 +4,6 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useEffect } from "react";
 import { config } from "../config";
-import { Link } from "react-router-dom";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -65,7 +64,7 @@ const Work = () => {
           My <span>Work</span>
         </h2>
         <div className="work-flex">
-          {config.projects.slice(0, 5).map((project, index) => (
+          {config.projects.slice(0, 6).map((project, index) => (
             <div className="work-box" key={project.id}>
               <div className="work-info">
                 <div className="work-title">
@@ -82,16 +81,6 @@ const Work = () => {
               <WorkImage image={project.image} alt={project.title} />
             </div>
           ))}
-          {/* See All Works Button */}
-          <div className="work-box work-box-cta">
-            <div className="see-all-works">
-              <h3>Want to see more?</h3>
-              <p>Explore all of my projects and creations</p>
-              <Link to="/myworks" className="see-all-btn" data-cursor="disable">
-                See All Works →
-              </Link>
-            </div>
-          </div>
         </div>
       </div>
     </div>
