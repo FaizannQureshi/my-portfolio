@@ -11,6 +11,9 @@ export const config = {
     email: "muhammadfaizan9222@gmail.com",
     location: "Islamabad, Pakistan",
   },
+  profile: {
+    image: "/images/mypic.jpg",
+  },
   about: {
     title: "About Me",
     description:

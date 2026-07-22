@@ -54,9 +54,8 @@ Also update hardcoded UI copy if needed:
 
 | Asset | Path | Notes |
 |-------|------|--------|
-| Profile photo (mobile) | `public/images/mypicnbg.png` | Hero on mobile |
-| Profile photo (play page) | `public/images/mypic.jpeg` | Chess/chat page |
-| Project thumbnails | `public/images/` | Currently `placeholder.webp` for Faizan's projects |
+| Profile photo | `public/images/mypic.jpg` | Mobile hero + Play page chat avatar (`config.profile.image`) |
+| Project thumbnails | `public/images/projects/` | Featured work screenshots |
 | 3D character | `public/models/character.enc` | Encrypted GLB; re-export via `public/models/encrypt.cjs` if you replace the avatar |
 | Favicon | `public/icon.svg` | `mfq` monogram |
 
@@ -76,9 +75,10 @@ Also update hardcoded UI copy if needed:
 - react-router-dom
 - Vercel Analytics & Speed Insights
 
-## Legacy
+## Notes
 
-The previous Next.js/Tailwind portfolio lived in `app/` and has been replaced by this Vite site. A copy of the original template may still exist under `portfolio-website-main/` for reference.
+- Mobile hero and Play page avatar use `config.profile.image` (`public/images/mypic.jpg`).
+- Desktop still uses the template 3D character in `public/models/character.enc` until you replace it.
 
 ## Contact
 
